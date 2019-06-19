@@ -1,3 +1,5 @@
+# Philosophy
+
 ## Machine cooperation, the very big picture
 
 In distributed systems, shared beliefs, laws, systems of accountability and behavioral constraints enable large scale cooperation. Humans have this, digital systems do not have this yet. In most cases, humans are still required to mediate between programs. Cooperation can only be achieved if systems can rely on each other, or if trust is not required in the first place. Sufficient security is a fundamental requirement for any type of cooperation.
@@ -10,4 +12,4 @@ Machine cooperation is desirable. Think of all the devices you own. Right now, y
 
 Very few languages actually adhere to the security principle of least authority ('POLA' - grant processes and their constituents as many permissions as necessary, but as few as possible). This leads to security disasters such as the recent NPM [malware incident].
 
-In a few decades, tiny processors will be everywhere. We'll better have appropriate mechanisms that make them secure. Even better, with the right substrate, they might even be able to manage themselves some day! [Capability Security] shows how to make such systems scale securely. And the [Agoric Papers] detail market based cooperation mechanisms that could be build on them. This system aims to follow the POLA principle as close as possible. Here, you can import a library and attenuate its authority by giving it only the necessary resources. It is of course only one attempt, but I hope there will be many more. 
+In a few decades, tiny processors will be everywhere. We'll better have appropriate mechanisms that make them secure. Even better, with the right substrate, they might even be able to manage themselves some day! [Capability Security] shows how to make such systems scale securely. And the [Agoric Papers] detail market based cooperation mechanisms that could be build on them. This system aims to follow the POLA principle as close as possible. Here, you can import a library and attenuate its authority by giving it only the necessary resources. It is of course only one attempt, but I hope there will be many more.

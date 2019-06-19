@@ -1,3 +1,5 @@
+# Considerations
+
 ## Design considerations
 
 Validation of a process image should be possible in linear time O(N), to prevent validation attacks.
@@ -22,5 +24,3 @@ It should be possible to limit subprocesses to time and space and prevent access
 A process should be able to create a subprocess from linear memory and recover a linear memory image if it suspends and returns control.
 
 Process images should be as small as possible in order to be portable and enable mobile agents. This implies that calls to external systems (ideally, other agents) should provide high level functionality.
-
-
