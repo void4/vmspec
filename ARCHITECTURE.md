@@ -22,6 +22,14 @@ In case of lower-level optimization, these design decisions may appear to be mer
 
 Perhaps even the gas cost table should be dynamically modifiable by the root process.
 
+## Data types in linear memory
+
+So far there's only a 64 bit data type.
+
+## Instruction encoding
+
+This is less of a problem if the program snapshot is compressed, but might still be an issue at runtime if running on low-memory devices. As a side note, it would be interesting to make the VM small enough to run on a GPU core.
+
 ## Capability security
 
 Implementing a capability architecture could allow subprocesses in the tree to communicate directly with each other, letting their parent processes up to and down from the root to forfeit the necessity/right to relay, read and possibly transform or ignore the messages between them.
