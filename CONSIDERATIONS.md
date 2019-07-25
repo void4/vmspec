@@ -2,7 +2,7 @@
 
 ## Design considerations
 
-Validation of a process image should be possible in linear time O(N), to prevent validation attacks.
+Validation of a process image should be possible in linear time and memory O(N), to prevent validation attacks.
 
 The time/gas and space accounting mechanisms require that each operation has sufficiently similar resource characteristics each time it is invoked. If operations behaved differently depending on their order, enclosing operations or number of invocations, the accounting mechanism would be inaccurate.
 
